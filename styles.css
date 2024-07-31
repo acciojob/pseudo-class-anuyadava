@@ -7,7 +7,7 @@
 
 /* Pseudo-element to insert content before the container */
 #container::before {
-    content: "Before content ";
+    content: "Before element ";
     color: #f00; /* Red color */
     font-size: 20px; /* Font size of 20px */
     position: absolute; /* Position it relative to the container */
@@ -17,7 +17,7 @@
 
 /* Pseudo-element to insert content after the container */
 #container::after {
-    content: " After content";
+    content: " After element";
     color: #f00; /* Red color */
     font-size: 20px; /* Font size of 20px */
     position: absolute; /* Position it relative to the container */
